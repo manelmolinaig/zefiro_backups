@@ -14,6 +14,8 @@ Folder 1: Zefiro Backups will automatically move all multimedia content uploaded
 
 Folder 2: This folder will contain the rest of the folders where you will organize all your already reviewed content. It will be treated as the root directory from which local backups are created.
 
+It’s up to you to create folder 1 inside folder 2 to include “uncategorized” photos and videos in your backups.
+
 ## Envionrment vars
 
 | Var      | Description |
