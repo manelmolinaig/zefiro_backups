@@ -33,3 +33,9 @@ Available provider domains:
 | Zefiro | zefiro.me |
 | Movistar (Spain) | micloud.movistar.es |
 | O2 (Spain) | cloud.o2online.es |
+
+## How to get a folder's ID?
+
+Login on your ISP or Zefiro storage service from computer and open your browser's developers tools.
+Look for the request to /sapi/media/folder?action=get&validationkey=xxxxx
+Check the JSON object on the Preview Tab
