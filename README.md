@@ -34,15 +34,13 @@ Available provider domains:
 | Movistar (Spain) | micloud.movistar.es |
 | O2 (Spain) | cloud.o2online.es |
 
+To get a folder ID, you must log in to your ISP or Zefiro storage service from a computer and open your browser’s developer tools.
+Look for the request to /sapi/media/folder?action=get&validationkey=xxxxx.
+Check the JSON object on the Preview Tab
+
 ## The volume
 
 The volume maps the container path where files are downloaded (/backups) to a path on your host disk.
-
-## How to get a folder's ID?
-
-Login on your ISP or Zefiro storage service from computer and open your browser's developers tools.
-Look for the request to /sapi/media/folder?action=get&validationkey=xxxxx
-Check the JSON object on the Preview Tab
 
 ## About the backup process
 
