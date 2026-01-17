@@ -12,3 +12,14 @@ Folder 1: Zefiro Backups will automatically move all multimedia content uploaded
 
 Folder 2: This folder will contain the rest of the folders where you will organize all your already reviewed content. It will be treated as the root directory from which local backups are created.
 
+## Your docker-compose.yml
+
+| Var      | Description |
+| -------- | ------- |
+| PROVIDER_DOMAIN  | Zefiro URL or your ISP's url    |
+| EMAIL | Zefiro or ISP service account email     |
+| PASSWORD    | Zefiro or ISP service account password    |
+| BACKUPS_FOLDER_ID | ID of the root folder to take backups from |
+| UNCATEGORIZED_FOLDER_ID | ID of the folder to automatically move all the content uploaded from apps |
+| BACKUP_CRON | cronjob expression to schedule your backups |
+| UNCATEGORIZED_CRON | cronjob expression to automatically move app uploaded content to UNCATEGORIZED_FOLDER_ID |
