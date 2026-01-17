@@ -56,4 +56,4 @@ Use this software at your own risk.**
 
 ## Dockerhub
 
-Find Zefiro Backup on [Dockerhub](https://hub.docker.com/r/molinaig/zefiro_backups)
+Find Zefiro Backups on [Dockerhub](https://hub.docker.com/r/molinaig/zefiro_backups)
