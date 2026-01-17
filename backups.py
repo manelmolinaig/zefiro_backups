@@ -1,4 +1,6 @@
+from dotenv import load_dotenv
 from cloud_manager import CloudManager
+load_dotenv("/app/.env")
 
 PROVIDER_DOMAIN = __import__("os").environ["PROVIDER_DOMAIN"]
 EMAIL = __import__("os").environ["EMAIL"]
