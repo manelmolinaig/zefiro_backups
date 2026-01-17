@@ -10,9 +10,9 @@ Although Zefiro provides folders and albums to organize your photos, videos, and
 
 To solve this, Zefiro Backups proposes creating two folders that the container will work with:
 
-Folder 1: Zefiro Backups will automatically move all multimedia content uploaded from the mobile app into this folder, so you can then review it and move it to the folder you consider appropriate.
+BACKUPS_FOLDER: Zefiro Backups will automatically move all multimedia content uploaded from the mobile app into this folder, so you can then review it and move it to the folder you consider appropriate.
 
-Folder 2: This folder will contain the rest of the folders where you will organize all your already reviewed content. It will be treated as the root directory from which local backups are created.
+UNCATEGORIZED_FOLDER: This folder will contain the rest of the folders where you will organize all your already reviewed content. It will be treated as the root directory from which local backups are created.
 
 It’s up to you to create folder 1 inside folder 2 to include “uncategorized” photos and videos in your backups.
 
