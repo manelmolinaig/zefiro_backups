@@ -1,5 +1,7 @@
 # Zefiro Backups
 
+![image](zefiro_backups_logo.png)
+
 <img src="[drawing.jpg](https://github.com/manelmolinaig/zefiro_backups/blob/main/zefiro_backups_logo.png?raw=true)" width="256"/>
 
 [Zefiro](https://zefiro.me) is a cloud storage provider that, in addition to offering plans to end users, also provides its service to some internet service providers such as Movistar or O2, allowing them to offer it free of charge to their customers when they subscribe to an internet plan.
