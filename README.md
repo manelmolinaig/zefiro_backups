@@ -14,7 +14,7 @@ BACKUPS_FOLDER: Zefiro Backups will automatically move all multimedia content up
 
 UNCATEGORIZED_FOLDER: This folder will contain the rest of the folders where you will organize all your already reviewed content. It will be treated as the root directory from which local backups are created.
 
-It’s up to you to create folder 1 inside folder 2 to include “uncategorized” photos and videos in your backups.
+It’s up to you to create UNCATEGORIZED_FOLDER inside BACKUPS_FOLDEE to include “uncategorized” photos and videos in your backups.
 
 ## Envionrment vars
 
