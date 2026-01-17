@@ -44,10 +44,16 @@ Check the JSON object on the Preview Tab
 
 The volume maps the container path where files are downloaded (/backups) to a path on your host disk.
 
+## Disclaimer
+
+**This software is provided “as is”, without any express or implied warranty. The author assumes no responsibility or liability for any errors, bugs, or unexpected behavior in the code, nor for any damage, data loss, or other issues that may result from its use.
+
+Use this software at your own risk.**
+
 ## About the backup process
 
 Note that in the current version of Zefiro Backups, the backup process only checks whether a remote file already exists in your local path based on its filename. This means that if a file is modified directly in the cloud, it will not be downloaded again.
 
-___________________________________________________________________________________________
+## Dockerhub
 
 Find Zefiro Backup on [Dockerhub](https://hub.docker.com/r/molinaig/zefiro_backups)
