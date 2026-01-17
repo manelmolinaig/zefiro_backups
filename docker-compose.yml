@@ -1,0 +1,16 @@
+version: "1.0"
+services:
+  zefiro_backups:
+    container_name: zefiro_backups
+    image: zefiro_backups:latest
+    restart: unless-stopped
+    environment:
+      PROVIDER_DOMAIN: zefiro.me
+      EMAIL: user@gmail.com
+      PASSWORD: password1234
+      BACKUPS_FOLDER_ID: "123456789"
+      UNCATEGORIZED_FOLDER_ID: "987654321"
+      BACKUP_CRON: "0 2 * * *"
+      UNCATEGORIZED_CRON: "*/30 * * * *"
+    volumes:
+      - ./backups:/backups
