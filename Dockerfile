@@ -16,6 +16,7 @@ COPY backups.py /app/backups.py
 
 # Dependencias
 RUN pip install --no-cache-dir requests
+RUN pip install --no-cache-dir python-dotenv
 
 # Script de instalación de cron
 COPY install-cron.sh /app/install-cron.sh
