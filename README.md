@@ -26,6 +26,8 @@ Folder 2: This folder will contain the rest of the folders where you will organi
 | BACKUP_CRON | cronjob expression to schedule your backups |
 | UNCATEGORIZED_CRON | cronjob expression to automatically move app uploaded content to UNCATEGORIZED_FOLDER_ID |
 
+The volume maps the container path where files are downloaded (/backups) to a path on your host disk.
+
 Available provider domains:
 
 | Service | Domain |
@@ -39,3 +41,7 @@ Available provider domains:
 Login on your ISP or Zefiro storage service from computer and open your browser's developers tools.
 Look for the request to /sapi/media/folder?action=get&validationkey=xxxxx
 Check the JSON object on the Preview Tab
+
+## About the backup process
+
+Note that in the current version of Zefiro Backups, the backup process only checks whether a remote file already exists in your local path based on its filename. This means that if a file is modified directly in the cloud, it will not be downloaded again.
