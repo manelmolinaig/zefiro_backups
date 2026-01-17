@@ -47,3 +47,7 @@ The volume maps the container path where files are downloaded (/backups) to a pa
 ## About the backup process
 
 Note that in the current version of Zefiro Backups, the backup process only checks whether a remote file already exists in your local path based on its filename. This means that if a file is modified directly in the cloud, it will not be downloaded again.
+
+___________________________________________________________________________________________
+
+Find Zefiro Backup on [Dockerhub](https://hub.docker.com/r/molinaig/zefiro_backups)
