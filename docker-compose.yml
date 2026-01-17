@@ -1,4 +1,3 @@
-version: "1.0"
 services:
   zefiro_backups:
     container_name: zefiro_backups
@@ -13,4 +12,5 @@ services:
       BACKUP_CRON: "0 2 * * *"
       UNCATEGORIZED_CRON: "*/30 * * * *"
     volumes:
+
       - ./backups:/backups
