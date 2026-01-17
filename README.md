@@ -17,9 +17,17 @@ Folder 2: This folder will contain the rest of the folders where you will organi
 | Var      | Description |
 | -------- | ------- |
 | PROVIDER_DOMAIN  | Zefiro URL or your ISP's url    |
-| EMAIL | Zefiro or ISP service account email     |
-| PASSWORD    | Zefiro or ISP service account password    |
+| EMAIL | your account email     |
+| PASSWORD    | your account password    |
 | BACKUPS_FOLDER_ID | ID of the root folder to take backups from |
 | UNCATEGORIZED_FOLDER_ID | ID of the folder to automatically move all the content uploaded from apps |
 | BACKUP_CRON | cronjob expression to schedule your backups |
 | UNCATEGORIZED_CRON | cronjob expression to automatically move app uploaded content to UNCATEGORIZED_FOLDER_ID |
+
+Available provider domains:
+
+| Service | Domain |
+|---------|--------|
+| Zefiro | zefiro.me |
+| Movistar (Spain) | micloud.movistar.es |
+| O2 (Spain) | cloud.o2online.es |
