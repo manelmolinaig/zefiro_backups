@@ -16,7 +16,7 @@ Folder 2: This folder will contain the rest of the folders where you will organi
 
 | Var      | Description |
 | -------- | ------- |
-| PROVIDER_DOMAIN  | Zefiro URL or your ISP's url    |
+| PROVIDER_DOMAIN  | Zefiro / Your ISP's domain    |
 | EMAIL | your account email     |
 | PASSWORD    | your account password    |
 | BACKUPS_FOLDER_ID | ID of the root folder to take backups from |
