@@ -14,7 +14,7 @@ Folder 1: Zefiro Backups will automatically move all multimedia content uploaded
 
 Folder 2: This folder will contain the rest of the folders where you will organize all your already reviewed content. It will be treated as the root directory from which local backups are created.
 
-## Your docker-compose.yml
+## Envionrment vars
 
 | Var      | Description |
 | -------- | ------- |
@@ -26,8 +26,6 @@ Folder 2: This folder will contain the rest of the folders where you will organi
 | BACKUP_CRON | cronjob expression to schedule your backups |
 | UNCATEGORIZED_CRON | cronjob expression to automatically move app uploaded content to UNCATEGORIZED_FOLDER_ID |
 
-The volume maps the container path where files are downloaded (/backups) to a path on your host disk.
-
 Available provider domains:
 
 | Service | Domain |
@@ -35,6 +33,10 @@ Available provider domains:
 | Zefiro | zefiro.me |
 | Movistar (Spain) | micloud.movistar.es |
 | O2 (Spain) | cloud.o2online.es |
+
+## The volume
+
+The volume maps the container path where files are downloaded (/backups) to a path on your host disk.
 
 ## How to get a folder's ID?
 
